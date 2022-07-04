@@ -2,22 +2,12 @@
 
 @section('content')
 <div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Dashboard') }}</div>
+    <div class="row">
+        <col-3><img src="https://storage.googleapis.com/replit/images/1582215416416_0466ed8fa3fabfcfd7f82153addce6c7.png" alt="" height="200"
+                    class="rounded-circle p-4"></col-3>
 
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    {{ __('You are logged in!') }}
-                </div>
-            </div>
-        </div>
+        <div class="col-9"></div>
     </div>
+
 </div>
 @endsection
